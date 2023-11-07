@@ -1,2 +1,2 @@
-pyautogen[retrievechat]>=0.1.10
+pyautogen[retrievechat]==0.1.14
 gradio<4.0.0
