@@ -1,3 +1,6 @@
+import sys
+import pysqlite3
+sys.modules['sqlite3'] = pysqlite3
 import gradio as gr
 import os
 from pathlib import Path
