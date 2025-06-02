@@ -1,0 +1,224 @@
+/* Custom styles for AutoGen Chat UI - Dark Theme */
+
+/* Main container styling */
+.gradio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
+
+body {
+    background-color: #1e1e1e !important;
+}
+
+/* Adjusting text colors for better contrast */
+h1, h2, h3, h4, h5, h6, p, span, label {
+    color: #e0e0e0 !important;
+}
+
+/* Chat selector panel */
+.chat-selector {
+    background-color: #252525;
+    border-right: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.chat-selector .chat-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: 1px solid transparent;
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.chat-selector .chat-item:hover {
+    background-color: #3a3a3a;
+}
+
+.chat-selector .chat-item.selected {
+    background-color: #0c4a6e;
+    border-color: #0078d4;
+}
+
+.chat-selector .new-chat-btn {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #0078d4 !important;
+    color: white !important;
+}
+
+/* Chatbot styling */
+#chatbot {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    height: 600px;
+    overflow-y: auto;
+    background-color: #2a2a2a;
+    border: 1px solid #333;
+}
+
+/* Message styling */
+#chatbot .user {
+    background-color: #0c4a6e !important;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 5px;
+    color: #ffffff !important;
+}
+
+#chatbot .bot {
+    background-color: #3a3a3a !important;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 5px;
+    color: #e0e0e0 !important;
+}
+
+/* Input and button styling */
+textarea {
+    border-radius: 6px !important;
+    border: 1px solid #444 !important;
+    padding: 8px !important;
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+}
+
+textarea:focus {
+    border-color: #0078d4 !important;
+    box-shadow: 0 0 0 2px rgba(0, 120, 212, 0.3) !important;
+}
+
+button {
+    border-radius: 6px !important;
+    transition: all 0.3s ease !important;
+}
+
+.primary-btn {
+    background-color: #0078d4 !important;
+    color: white !important;
+}
+
+.primary-btn:hover {
+    background-color: #106ebe !important;
+}
+
+.secondary-btn {
+    background-color: #333333 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #444 !important;
+}
+
+.secondary-btn:hover {
+    background-color: #444444 !important;
+}
+
+.delete-btn {
+    background-color: #d83b01 !important;
+    color: white !important;
+}
+
+.delete-btn:hover {
+    background-color: #c43600 !important;
+}
+
+/* Chat title */
+.chat-title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+/* Empty state */
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #888;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.empty-state svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    fill: #666;
+}
+
+/* Additional dark mode styles */
+select, input, .options-container {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+/* Dark theme for markdown content */
+.dark-theme-markdown h1 {
+    color: #e0e0e0 !important;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.dark-theme-markdown h2, 
+.dark-theme-markdown h3, 
+.dark-theme-markdown h4 {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme-markdown p {
+    color: #cccccc !important;
+}
+
+.dark-theme-markdown a {
+    color: #3b9cff !important;
+    text-decoration: none;
+}
+
+.dark-theme-markdown a:hover {
+    text-decoration: underline;
+}
+
+.gradio-dropdown {
+    background-color: #2d2d2d !important;
+}
+
+.gradio-dropdown .dropdown-menu {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+}
+
+.gradio-dropdown .dropdown-option:hover {
+    background-color: #3a3a3a !important;
+}
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2a2a2a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}

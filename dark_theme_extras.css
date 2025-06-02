@@ -1,0 +1,91 @@
+/* Dark Theme CSS Overrides for Gradio */
+
+/* Force dark theme for all containers and blocks */
+.gradio-container, .gradio-container *, .container, footer, header {
+    color-scheme: dark !important;
+}
+
+/* Make sure dropdown menus have the correct background */
+.gr-dropdown, .gr-form, select, option {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+}
+
+/* Style form elements */
+.gr-form, .gr-form-field, .gr-input, .gr-checkbox, .gr-radio {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+}
+
+/* Make sure labels are visible */
+label {
+    color: #e0e0e0 !important;
+}
+
+/* Style block backgrounds */
+.gr-panel, .gr-box, .gr-block {
+    background-color: #252525 !important;
+}
+
+/* Fix any light-colored borders */
+.gr-padded, .gr-panel, .gr-box, .gr-block {
+    border-color: #333 !important;
+}
+
+/* Ensure dark scrollbars in all elements */
+* {
+    scrollbar-color: #555 #2a2a2a;
+}
+
+/* Style input placeholders */
+::placeholder {
+    color: #888 !important;
+    opacity: 1;
+}
+
+/* Additional fixes for specific Gradio components */
+.dark-bg {
+    background-color: #1e1e1e !important;
+}
+
+.markdown-body {
+    background-color: transparent !important;
+    color: #e0e0e0 !important;
+}
+
+.markdown-body a {
+    color: #3b9cff !important;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3,
+.markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    color: #e0e0e0 !important;
+    border-bottom-color: #333 !important;
+}
+
+.markdown-body code, .markdown-body pre {
+    background-color: #2a2a2a !important;
+    color: #e0e0e0 !important;
+}
+
+.markdown-body blockquote {
+    color: #bbb !important;
+    border-left-color: #444 !important;
+}
+
+/* Fix code highlighting */
+code {
+    background-color: #2a2a2a !important;
+    color: #e0e0e0 !important;
+}
+
+/* Ensure any modal popups are dark */
+.modal-content {
+    background-color: #252525 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Fix any light backgrounds in specific elements */
+.gradio-box, .input-box, .output-box {
+    background-color: #252525 !important;
+}
